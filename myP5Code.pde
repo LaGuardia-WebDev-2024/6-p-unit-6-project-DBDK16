@@ -12,9 +12,14 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+  fill(234,199,37);
+  ellipse(100,120,175,125);
+  fill(100,100,300);
+  ellipse(300,120,175,125);
+  ellipse(100,95,75,75);
+  ellipse(300,95,75,75);
   
-
+  line(200,200,200,200)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
