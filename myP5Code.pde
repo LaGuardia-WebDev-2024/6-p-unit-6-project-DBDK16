@@ -12,24 +12,28 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-  fill(234,199,37);
-  ellipse(100,120,175,125);
-  fill(234,199,37);
-  ellipse(300,120,175,125);
-  fill(100,100,300);
-  ellipse(100,95,75,75);
-  fill(100,100,300);
-  ellipse(300,95,75,75);
-
+ fill(13,115,212)
   line(175,5,178,187)
   line(220,5,224,185)
   line(224,185,268,221)
   line(178,187,150,221)
   line(150,221,268,221)
   line(139,327,280,327)
-  
+ 
+
+  fill(234,199,37);
+  ellipse(300,120,175,125); //Right Pupil
+  fill(100,100,300);
+  ellipse(300,95,75,75); //Right eye
+
+translate(-200,0)
+  fill(234,199,37);
+  ellipse(300,120,175,125); //Right Pupil
+  fill(100,100,300);
+  ellipse(300,95,75,75); //Right eye 
 }
 
+ 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
