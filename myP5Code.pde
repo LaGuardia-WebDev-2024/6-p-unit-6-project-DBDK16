@@ -13,6 +13,7 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
  fill(13,115,212)
+
   line(175,5,178,187)
   line(220,5,224,185)
   line(224,185,268,221)
@@ -28,9 +29,15 @@ void draw(){
 
 translate(-200,0)
   fill(234,199,37);
-  ellipse(300,120,175,125); //Right Pupil
+  ellipse(300,120,175,125); //Left Pupil
   fill(100,100,300);
-  ellipse(300,95,75,75); //Right eye 
+  ellipse(300,95,75,75); //Left eye 
+
+ fill(200,100,100);
+  ellipse(400,300,175,125); //Mouth
+ 
+
+
 }
 
  
